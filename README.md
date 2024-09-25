@@ -19,6 +19,7 @@ This is a Node.js API built using Express.js that manages users, companies, jobs
 - Cookie Parser
 - CORS
 - dotenv for environment variables
+- Cloudinary for Saving files(Profile pic and Resume)
 
 ## Prerequisites
 
