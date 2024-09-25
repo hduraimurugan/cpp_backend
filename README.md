@@ -140,10 +140,3 @@ export default connectDB;
 
 Ensure that you set up your MongoDB connection string in the `.env` file.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This should provide clear documentation on how to set up, run, and configure your project. Let me know if you'd like to add or modify anything!
