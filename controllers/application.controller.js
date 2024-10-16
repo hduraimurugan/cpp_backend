@@ -85,6 +85,8 @@ export const getApplicants = async (req, res) => {
             populate: {
                 path: 'applicant'
             }
+        }).populate({
+            path: 'company'
         });
         if (!job) {
             return res.status(404).json({
