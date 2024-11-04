@@ -22,7 +22,8 @@ app.use(cookieParser());
 const allowedOrigins = [
     "http://127.0.0.1:8080",
     "http://localhost:5173",
-    "https://cpp-frontend.vercel.app" 
+    "https://cpp-frontend.vercel.app",
+    "*"
   ];
   
   app.use(cors({
